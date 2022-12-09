@@ -1,0 +1,42 @@
+{
+  "name": "@airbnb/config-eslint",
+  "version": "3.1.0",
+  "description": "Reusable ESLint config.",
+  "keywords": [
+    "nimbus",
+    "config",
+    "eslint"
+  ],
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:airbnb/nimbus.git"
+  },
+  "author": "Miles Johnson",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">=10.16.0"
+  },
+  "dependencies": {
+    "@airbnb/nimbus-common": "^3.0.1",
+    "@beemo/core": "^1.1.6",
+    "@beemo/driver-eslint": "^1.2.2",
+    "@typescript-eslint/eslint-plugin": "^2.25.0",
+    "@typescript-eslint/parser": "^2.25.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.1.0",
+    "eslint-config-prettier": "^6.10.1",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-jest": "^23.8.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-react": "^7.19.0",
+    "eslint-plugin-react-hooks": "^2.5.1",
+    "eslint-plugin-unicorn": "^17.2.0"
+  }
+}

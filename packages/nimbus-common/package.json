@@ -1,0 +1,30 @@
+{
+  "name": "@airbnb/nimbus-common",
+  "version": "3.0.1",
+  "description": "Common Nimbus utilities and constants.",
+  "keywords": [
+    "nimbus",
+    "config",
+    "common",
+    "utils"
+  ],
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:airbnb/nimbus.git"
+  },
+  "author": "Miles Johnson",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">=10.16.0"
+  },
+  "dependencies": {
+    "@beemo/core": "^1.1.6",
+    "@boost/common": "^1.8.3",
+    "execa": "^4.0.0",
+    "fast-glob": "^3.2.2"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "name": "@airbnb/config-jest",
+  "version": "3.0.2",
+  "description": "Reusable Jest config.",
+  "keywords": [
+    "nimbus",
+    "config",
+    "jest"
+  ],
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:airbnb/nimbus.git"
+  },
+  "author": "Miles Johnson",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">=10.16.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^25.2.3"
+  },
+  "dependencies": {
+    "@airbnb/nimbus-common": "^3.0.1",
+    "@babel/core": "^7.9.0",
+    "@beemo/core": "^1.1.6",
+    "@beemo/driver-babel": "^1.2.3",
+    "@beemo/driver-jest": "^1.2.1",
+    "airbnb-js-shims": "^2.2.1",
+    "dom-storage": "^2.1.0",
+    "jest": "^25.5.4"
+  },
+  "optionalPeerDependencies": {
+    "aphrodite": "^4.0.0",
+    "enzyme": "^3.0.0",
+    "enzyme-to-json": "^3.0.0"
+  }
+}

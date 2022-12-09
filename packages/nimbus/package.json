@@ -1,0 +1,52 @@
+{
+  "name": "@airbnb/nimbus",
+  "version": "3.1.4",
+  "description": "Centralized CLI for JavaScript and TypeScript dev tools.",
+  "keywords": [
+    "nimbus",
+    "config",
+    "cli",
+    "management",
+    "developer",
+    "tool"
+  ],
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:airbnb/nimbus.git"
+  },
+  "author": "Miles Johnson",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "bin": {
+    "nimbus": "./bin/nimbus",
+    "nimbus-setup": "./bin/nimbus-setup",
+    "nimbus-eject": "./bin/nimbus-eject"
+  },
+  "engines": {
+    "node": ">=10.16.0"
+  },
+  "dependencies": {
+    "@airbnb/nimbus-common": "^3.0.1",
+    "@beemo/cli": "^1.0.10",
+    "@beemo/core": "^1.1.6",
+    "@octokit/rest": "^17.1.2",
+    "chalk": "^3.0.0",
+    "check-node-version": "^4.0.2",
+    "conventional-changelog-beemo": "^1.6.0",
+    "edit-json-file": "^1.4.0",
+    "enquirer": "^2.3.4",
+    "execa": "^4.0.0"
+  },
+  "devDependencies": {
+    "@airbnb/config-babel": "^3.1.0",
+    "@airbnb/config-danger": "^3.0.1",
+    "@airbnb/config-eslint": "^3.1.0",
+    "@airbnb/config-jest": "^3.0.2",
+    "@airbnb/config-prettier": "^3.1.0",
+    "@airbnb/config-typescript": "^3.0.1",
+    "@airbnb/config-webpack": "^3.3.1"
+  }
+}
